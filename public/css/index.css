@@ -2,10 +2,40 @@
 
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: green;
-    background: black;
+    font-family:"Rajdhani",Verdana, Geneva, Tahoma, sans-serif;
+   color: white;
+   background-color: #090920;
 }
 span{
     text-transform: uppercase;
+}
+.contact-page{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.contact-page .div{
+    border: 1px solid;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+
+.contact-img{
+    
+    padding: 0;
+    margin: 0;
+    border-radius: 50%;
+    width: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    opacity: 0.5;
+}
+#blacklist{
+    color: maroon;
 }

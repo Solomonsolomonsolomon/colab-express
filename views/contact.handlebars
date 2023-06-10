@@ -1,0 +1,36 @@
+<div class="contact-page">
+
+{{#each contacts}}
+
+<div class="div">
+    <div class="contact-img"> </div>
+  <p id="blacklist">  {{#if this.isBlackListed}}BLACKLISTED{{/if}} </p>  <p>fullname: {{this.first_name}} {{this.last_name}}</p>
+    <p>email:{{this.email}}</p>
+    <p>description:{{this.description}}</p>
+    <p>phone:{{this.phone_number}}</p>
+</div>
+
+{{/each}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
